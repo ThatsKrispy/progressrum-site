@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience Progress — Progress Rum</title>
+  <meta name="description" content="Order Progress Rum online for fast delivery, find a store near you, or join the Progress Club for exclusive rewards and limited-edition releases.">
+  <link rel="icon" type="image/png" href="images/ToastToProgress_AgedRum-1.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Age Gate -->
+  <div id="age-gate" class="age-gate">
+    <div class="age-gate__inner">
+      <img src="images/Progress_Rum_Logo_B.png" alt="Progress Rum" class="age-gate__logo">
+      <p class="age-gate__sub">Please verify your age to enter.</p>
+      <h2 class="age-gate__question">Are you 21 or older?</h2>
+      <div class="age-gate__buttons">
+        <button onclick="enterSite()" class="btn btn--gold">Yes, I Am</button>
+        <a href="https://www.google.com" class="btn btn--outline">No, Exit</a>
+      </div>
+      <p class="age-gate__legal">By entering you agree to our <a href="#">Terms</a>. Do not share with those under 21.</p>
+    </div>
+  </div>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav__logo">
+      <img src="images/Progress_Rum_Logo_B.png" alt="Progress Rum">
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="brand-story.html">Our Story</a></li>
+      <li><a href="our-rums.html">Our Rums</a></li>
+      <li><a href="experience.html" class="active">Experience</a></li>
+      <li><a href="cocktails.html">Cocktails</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero__bg" style="background-image: url('images/Progress_Rum_7.jpg')"></div>
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <span class="page-hero__eyebrow">Experience Progress</span>
+      <h1>The Essence of<br>Cuban Soul</h1>
+    </div>
+  </section>
+
+  <!-- Three Ways to Experience -->
+  <section style="padding: 6rem 4rem; max-width: 1200px; margin: 0 auto;">
+    <span class="section__eyebrow">How to Get It</span>
+    <h2 style="font-family: var(--font-display); font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 300; color: var(--cream); margin-bottom: 3rem;">Progress in Every Pour</h2>
+    <div class="exp-grid">
+      <div class="exp-card">
+        <div class="exp-card__icon">📦</div>
+        <div class="exp-card__title">Order Online</div>
+        <div class="exp-card__sub">Fast Shipping Available</div>
+        <p>Can't make it to the store? Order your favorite Progress Rum blends online and have them delivered straight to your doorstep. Fast, secure, and hassle-free.</p>
+        <a href="https://shopprogressrum.com" target="_blank" rel="noopener" class="btn btn--gold">Shop Now</a>
+      </div>
+      <div class="exp-card">
+        <div class="exp-card__icon">📍</div>
+        <div class="exp-card__title">Find In Store</div>
+        <div class="exp-card__sub">South Florida Locations</div>
+        <p>Use our store locator to discover where you can pick up your next bottle. Explore diverse blends, speak with informed staff, and maybe find a new favorite.</p>
+        <a href="https://shopprogressrum.com" target="_blank" rel="noopener" class="btn btn--outline-sm">Store Locator</a>
+      </div>
+      <div class="exp-card">
+        <div class="exp-card__icon">🥇</div>
+        <div class="exp-card__title">Progress Club</div>
+        <div class="exp-card__sub">Membership Open 2025</div>
+        <p>As a valued member, you'll gain access to limited-edition releases, members-only events, and accumulate points with every purchase. Cheers to Progress!</p>
+        <a href="contact.html" class="btn btn--outline-sm">Join the Club</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Banner -->
+  <section style="padding: 0 4rem; max-width: 1200px; margin: 0 auto 6rem;">
+    <div class="membership-banner">
+      <div>
+        <span class="badge">Progress Club · 2025</span>
+        <h2>Unlock Exclusive Rewards</h2>
+        <p>As a valued member of the Progress Club, you'll gain access to limited-edition releases, members-only events, and accumulate points with every purchase. It's our way of saying "Cheers to Progress!"</p>
+        <a href="contact.html" class="btn btn--gold">Membership Open 2025</a>
+      </div>
+      <div style="text-align: center;">
+        <img src="images/ToastToProgress_AgedRum-1.png" alt="Progress Rum Aged" style="max-width: 220px; margin: 0 auto;" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="index.html">
+        <img src="images/Progress_Rum_Logo_B.png" alt="Progress Rum" class="footer__logo">
+      </a>
+      <nav class="footer__nav">
+        <a href="brand-story.html">Our Story</a>
+        <a href="our-rums.html">Our Rums</a>
+        <a href="experience.html">Experience</a>
+        <a href="cocktails.html">Cocktails</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="https://www.instagram.com/progress.rum" target="_blank" rel="noopener" class="footer__social" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <p class="footer__copy">© 2025 Progress Rum &nbsp;·&nbsp; Site by <a href="https://thatskrispy.com" target="_blank" rel="noopener">@ThatsKrispy</a></p>
+      <p class="footer__drink-resp">Please drink responsibly. Must be 21+ to purchase.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
