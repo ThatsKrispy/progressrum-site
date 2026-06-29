@@ -19,7 +19,9 @@
   --border-dim: rgba(255,255,255,0.08);
   --font-display: 'Roboto Slab', Georgia, serif;
   --font-body:    'Nunito', system-ui, sans-serif;
-  --nav-h: 68px;
+  --bar-h: 30px;
+  --nav-h: 64px;
+  --header-h: calc(var(--bar-h) + var(--nav-h));
   --ls-wide: 0.25em;
   --ls-med:  0.15em;
 }
@@ -108,34 +110,40 @@ a { color: inherit; text-decoration: none; }
 
 /* ===================== ANNOUNCE BAR ===================== */
 .announce-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1001;
   background: var(--gold);
   color: var(--black);
   text-align: center;
-  padding: 0.6rem 1rem;
+  padding: 0.5rem 1rem;
   font-family: var(--font-body);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: var(--ls-wide);
   text-transform: uppercase;
+  line-height: 1;
 }
 .announce-bar a { color: var(--black); }
 
 /* ===================== NAV ===================== */
 .nav {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: var(--bar-h); left: 0; right: 0;
   z-index: 1000;
   height: var(--nav-h);
   display: flex;
   align-items: center;
   padding: 0 2rem;
   gap: 1.5rem;
+  background: rgba(13,13,13,0.96);
+  border-bottom: 1px solid var(--border-dim);
+  backdrop-filter: blur(10px);
   transition: background 0.3s ease;
 }
 .nav.scrolled {
-  background: rgba(13,13,13,0.97);
+  background: rgba(13,13,13,0.98);
   border-bottom: 1px solid var(--border-dim);
-  backdrop-filter: blur(10px);
 }
 .nav__logo img { height: 42px; width: auto; }
 .nav__ig {
@@ -211,7 +219,7 @@ a { color: inherit; text-decoration: none; }
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: calc(var(--nav-h) + 2rem);
+  padding-top: calc(var(--header-h) + 2.5rem);
   padding-bottom: 3rem;
   overflow: hidden;
 }
@@ -298,7 +306,7 @@ a { color: inherit; text-decoration: none; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding-top: var(--nav-h);
+  padding-top: var(--header-h);
 }
 .page-hero__bg {
   position: absolute;
@@ -949,7 +957,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 768px) {
   .nav__links {
     position: fixed;
-    top: var(--nav-h); left: 0; right: 0;
+    top: var(--header-h); left: 0; right: 0;
     background: rgba(13,13,13,0.98);
     flex-direction: column;
     gap: 0;
