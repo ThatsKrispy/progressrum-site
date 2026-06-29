@@ -837,6 +837,24 @@ a { color: inherit; text-decoration: none; }
   margin-top: 0.5rem;
 }
 
+/* Two real cocktail photos side by side */
+.cocktail-photos {
+  background: var(--dark);
+}
+.cocktail-photo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  max-height: 520px;
+  overflow: hidden;
+}
+.cocktail-photo-pair img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* Simple cocktail cards */
 .simple-cocktails {
   display: grid;
