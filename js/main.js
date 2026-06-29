@@ -1,5 +1,13 @@
 // Progress Rum — main.js
 
+// Dynamic copyright year
+(function () {
+  var year = new Date().getFullYear();
+  document.querySelectorAll('.footer__copy').forEach(function (el) {
+    el.innerHTML = el.innerHTML.replace(/\d{4}/, year);
+  });
+})();
+
 // Age Gate
 (function () {
   var gate = document.getElementById('age-gate');
