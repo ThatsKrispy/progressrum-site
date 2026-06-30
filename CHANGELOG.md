@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-30 — Polish pass (round 3)
+
+### Changed
+- **Our Story:** the closing full-bleed above “From Our Family to Yours” is now the warm “served to you” shot (Silver poured onto a tray) instead of the bottles-and-glasses image.
+- **Our Rums:** image-cell background set to #0d0d0d to exactly match the bottle photos’ background — removes the “double black” seam so the bottles truly float.
+- **Cocktails:** every photo on the page is now unique (the duplicate `bartender-mixing` is gone). Card 1 uses the smoky cocktail shot; the full-bleed band uses the bottles-and-glasses shot.
+
+
 ## 2026-06-30 — Image placement + layout pass (round 2)
 
 ### Changed
