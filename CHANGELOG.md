@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-30 — Our Rums duplicate image fix (round 10)
+
+### Changed
+- **Our Rums:** the hero pour and the Extra Old section were the same photo. Kept the hero, and gave the Extra Old "coming soon" section a previously-unused moody smoky-cocktail shot so no image repeats on the page.
+
+
 ## 2026-06-30 — Experience order + brand-story closer (round 9)
 
 ### Changed
