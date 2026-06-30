@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-30 — Brand-story closer photo (round 4)
+
+### Changed
+- **Our Story:** closing band above “From Our Family to Yours” changed to the rum-on-the-rocks shot (client-selected) — cleaner and more premium than the prior served-on-tray crop. The small “Where It Started” image was swapped to a two-bottles shelf shot so no photo repeats on the page.
+
+
 ## 2026-06-30 — Polish pass (round 3)
 
 ### Changed
