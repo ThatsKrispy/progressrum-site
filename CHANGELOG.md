@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-30 — Cocktails layout + Our Story tweaks (round 8)
+
+### Changed
+- **Cocktails (desktop flow):** replaced the stacked centered-text + photo-pair layout with an alternating image-and-recipe layout — each drink (On-the-Rocks, El Caribeño, Rum Sour, Daiquiri) now sits beside its own photo, sides alternating, reading far more cohesively. Stacks image-over-recipe on mobile.
+- **Our Story:** enlarged the "Where It Started" rum-on-the-rocks photo (was too small).
+- **Our Story:** replaced the closing photo (a too-zoomed single glass) with a bartender serving Progress Silver — "someone working" — framed so it is not cropped tight.
+
+
 ## 2026-06-30 — Migrate exact live photos + Our Rums sizing (round 7)
 
 ### Added (exact photos copied from the live WordPress site, optimized to WebP)
