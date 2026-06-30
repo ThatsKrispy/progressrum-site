@@ -548,7 +548,7 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
 }
 .rum-section__img img {
-  max-height: 480px;
+  max-height: 576px;
   width: auto;
   object-fit: contain;
 }
@@ -591,7 +591,7 @@ a { color: inherit; text-decoration: none; }
 .rum-extra-old {
   position: relative;
   border-top: 1px solid var(--border-dim);
-  min-height: 480px;
+  min-height: 700px;
   overflow: hidden;
 }
 .rum-extra-old__img {
@@ -602,8 +602,8 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
-  filter: brightness(0.45);
+  object-position: center;
+  filter: brightness(0.5);
 }
 .rum-extra-old__text {
   position: relative;
@@ -751,6 +751,38 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ===================== COCKTAILS ===================== */
+.cocktail-copy {
+  background: var(--panel);
+  padding: 3.5rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.cocktail-copy .eyebrow {
+  font-size: 0.65rem;
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  color: rgba(240,234,216,0.45);
+}
+.cocktail-copy p {
+  font-size: 0.9rem;
+  color: rgba(240,234,216,0.65);
+  line-height: 1.85;
+  max-width: 62ch;
+}
+.recipes-grid.recipes-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.recipes-grid.recipes-grid--1 { grid-template-columns: 1fr; }
+.recipes-grid.recipes-grid--1 .recipe-block {
+  border-right: none;
+  text-align: center;
+}
+.recipes-grid.recipes-grid--1 .recipe-ingredients { display: inline-block; text-align: left; }
+@media (max-width: 768px) {
+  .recipes-grid.recipes-grid--2 { grid-template-columns: 1fr; }
+}
+
 .cocktail-intro {
   display: grid;
   grid-template-columns: 1fr 1fr;

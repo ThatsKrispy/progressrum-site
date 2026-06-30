@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-06-30 — Migrate exact live photos + Our Rums sizing (round 7)
+
+### Added (exact photos copied from the live WordPress site, optimized to WebP)
+- Brand-story Where It Started: rum-on-the-rocks (ProgressRum_3) + Hialeah arch (Progress_Rum_7), in live order.
+- Experience: gold US store-locator map (Progress_Map) in the middle (Locations) and beach rum-on-the-rocks (ProgressRum_4) in Membership — matching live. Order Online swapped to a bottles shot so the map is not duplicated.
+- Cocktails: rebuilt to the live layout with the exact live photos in order — pair 1 (rocks + bartender-served), El Caribeño + Rum Sour, pair 2 (smoky rum sour + pineapple daiquiri), Daiquiri, then the three named cocktails (Lime & Rum Fusion / Spiced & Iced / Tropical Sunset).
+
+### Changed
+- **Our Rums:** floating bottles enlarged ~20%; the Extra Old (last) photo section is taller so much more of the pour shot shows (was cropped to about half).
+- Fixed a CSS specificity bug so the 2-up and single recipe grids lay out correctly.
+
+
 ## 2026-06-30 — Our Story image fix (round 6)
 
 ### Changed
