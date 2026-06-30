@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-06-30 — Our Story image fix (round 6)
+
+### Changed
+- **Our Story:** replaced the “Where It Started” bottles photo. The previous shot was portrait (0.75) and its tops were cropped by the square slot; swapped to the near-square bottles-and-glasses shot so it renders fully. Hialeah tribute photo and the rum-on-the-rocks closer left unchanged.
+
+
 ## 2026-06-30 — Cocktails page rework (round 5)
 
 ### Changed
