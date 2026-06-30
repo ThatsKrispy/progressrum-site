@@ -468,6 +468,7 @@ a { color: inherit; text-decoration: none; }
   color: var(--cream);
   letter-spacing: 0.02em;
   line-height: 1.1;
+  margin: 0;
 }
 .founder-panel__text p {
   font-size: 0.87rem;
@@ -539,7 +540,7 @@ a { color: inherit; text-decoration: none; }
 .rum-section--flip .rum-section__img { order: -1; }
 
 .rum-section__img {
-  background: var(--dark);
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -547,7 +548,7 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
 }
 .rum-section__img img {
-  max-height: 460px;
+  max-height: 480px;
   width: auto;
   object-fit: contain;
 }
@@ -798,8 +799,6 @@ a { color: inherit; text-decoration: none; }
   background: var(--panel);
   padding: 3.5rem 3.5rem;
   border-right: 1px solid var(--border-dim);
-  position: sticky;
-  top: var(--header-h);
 }
 .cocktail-body__right {
   background: var(--panel);
@@ -891,13 +890,12 @@ a { color: inherit; text-decoration: none; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  max-height: 520px;
-  overflow: hidden;
 }
 .cocktail-photo-pair img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 4/5;
   object-fit: cover;
+  object-position: center 35%;
   display: block;
 }
 
@@ -913,12 +911,13 @@ a { color: inherit; text-decoration: none; }
 .simple-cocktail {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 1/1.1;
+  aspect-ratio: 4/5;
 }
 .simple-cocktail img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 30%;
   transition: transform 0.5s ease;
 }
 .simple-cocktail:hover img { transform: scale(1.04); }

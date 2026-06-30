@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-06-30 — Image placement + layout pass (round 2)
+
+### Changed
+- **Homepage panels** now use the correct live photos: panel 1 = two bottles on a wooden corner shelf; panel 2 = bottle at a poker table (poker chips); panel 3 = two bottles with two glasses on a wooden shelf.
+- **Our Story:** founder photos (Anthony & Jesus) restored per client request; names promoted to `<h2>`. The tribute paragraph now shows the actual Hialeah “City of Progress” building (was a mislabeled bottle image). Bottom full-bleed swapped to bottles-and-glasses so Hialeah is not duplicated.
+- **Our Rums:** Silver and Aged bottles now float on solid black (no visible box), matching the live floating-bottle treatment.
+- **Cocktails:** removed the sticky left column; fixed drink photos being cut off (full glasses now show via 4:5 framing and centered focal points); fixed the full-bleed cocktail crop and a wrong alt text.
+
+### Removed
+- `images/hialeah-city-of-progress.webp` (mislabeled — content was a bottle, now unused).
+
+### Notes
+- Founder portraits are kept at the clients request. If higher-resolution or updated originals exist, send them and they will drop straight in.
+
+
 ## 2026-06-30 — Audit + compliance/accuracy pass
 
 Reviewed all 6 pages against the live site (www.progressrum.com) and made scoped fixes. Full audit in `AUDIT.md`.
