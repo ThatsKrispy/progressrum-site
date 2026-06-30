@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-06-30 — Cocktails page rework (round 5)
+
+### Changed
+- **Cocktails:** fixed vertically cut-off drink photos by matching display ratios to the source images — the serving photo went from 16:9 to 4:5 (it is a portrait shot), the rum-sour/daiquiri pair to 2:3, and all focal points re-centered so glasses show fully.
+- **Cocktails:** added vertical height so the page no longer feels short — taller intro split, larger drink imagery, and more padding in the recipe cards.
+- **Cocktails (mobile):** drink cards and the serving photo no longer crop to 16:9 on phones (now 4:5).
+
+
 ## 2026-06-30 — Brand-story closer photo (round 4)
 
 ### Changed
