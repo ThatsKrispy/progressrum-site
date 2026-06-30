@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-06-30 — Experience order + brand-story closer (round 9)
+
+### Changed
+- **Experience:** Locations (store locator) is now the first content block, followed by Order Online, then Membership — with clean left/right image alternation.
+- **Our Story:** closing photo replaced with the live "Aged_Rum_Hero" shot (Aged + Silver bottles on a wooden bar with a cocktail to the left), framed with padding and a subtle border rather than full-bleed.
+
+
 ## 2026-06-30 — Cocktails layout + Our Story tweaks (round 8)
 
 ### Changed
